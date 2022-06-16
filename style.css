@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+main {
+    padding: 15px;
+}
+
+
+
+form {
+    margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 1.3rem;
+}
+
+.btn-container {
+    margin-bottom: 10px;
+}
+
+
+button {
+    padding: 5px;
+    background-color: #0078FF;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:last-of-type {
+    margin-left: 215px;
+}
+
+button:hover {
+    background-color: rgba(0, 120, 255, 0.8);
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+thead {
+    border-bottom: 1px solid white;
+}
+
+tbody {
+    font-size: 0.9rem;
+}
+
+tr td:last-of-type {
+    padding-left: 100px;
+}
+
+.active {
+    background-color: #0078FF;
+}
+
+@media (max-width: 599px) {
+
+    input {
+        font-size: 1rem;
+    }
+
+    input::placeholder {
+        font-size: 0.9rem;
+    }
+
+    button:last-of-type {
+        margin-left: 124px;
+    }
+
+
+    tr td:last-of-type {
+        padding-left: 49px;
+    }
+
+
+}
+
+@media (max-width: 417px) {
+    input:first-of-type {
+        margin-bottom: 5px;
+    }
+
+    button:last-of-type {
+        margin-left: 85px;
+    }
+
+    thead {
+        font-size: 0.9rem;
+    }
+
+    tbody {
+        font-size: 0.8rem;
+    }
+
+
+}
